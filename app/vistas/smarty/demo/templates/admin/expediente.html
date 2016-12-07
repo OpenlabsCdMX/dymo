@@ -1,0 +1,36 @@
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="./css/librerias/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/librerias/jquery-ui.css">
+    <script src='./js/librerias/jquery-3.1.1.min.js'></script>
+    <script type="text/javascript" src='js/librerias/bootstrap-modal.js'></script>
+    <script src="./js/librerias/jquery-ui.js"></script>
+    <script type="text/javascript" src='js/funciones.js'></script>
+
+</head>
+<body>
+
+
+ <form class="expediente" id='expediente' name='expediente'>
+ 	 <h3 class="cabecera">Datos del expediente  (Ruta DIMO)</h3>
+ 	 <label class='etiquetas' for="num_ruta">Num Ruta</label>
+     <input type="text" id="num_ruta" class="form-control" placeholder="Numero de Ruta" required autofocus>
+ 	 <label class='etiquetas' for="buscar_cliente">Cliente (Interno)</label>
+     <input type="text" id="buscar_cliente" name='buscar_cliente' class="form-control" placeholder="Buscar Cliente" readonly>
+
+      <button class="btnCrear" type="submit">Crear</button>
+</form>
+
+ <div class="my-modal-base">
+	<div class="my-modal-cont"></div>
+</div>
+
+
+
+
+
+</body>    
+
+
+</html>
