@@ -1,0 +1,438 @@
+
+ERRNO: 256
+TEXT: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+LOCATION: /var/www/html/proyecto_DYMO/app/modelo/BaseDatosControl.php, line 36, at December 5, 2016, 11:41 am 
+Showing backtrace:
+trigger_error("SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost'...", "256") # line   36, file: /var/www/html/proyecto_DYMO/app/modelo/BaseDatosControl.php
+BaseDatosControl.GetControl() # line   76, file: /var/www/html/proyecto_DYMO/app/modelo/BaseDatosControl.php
+BaseDatosControl.GetAll("CALL getInternos();") # line   26, file: /var/www/html/proyecto_DYMO/app/modelo/Catalogo.php
+Catalogo.GetInternos() # line   23, file: /var/www/html/proyecto_DYMO/app/control/AdminControl.php
+AdminControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined variable: lista_interno
+LOCATION: /var/www/html/proyecto_DYMO/app/control/AdminControl.php, line 26, at December 5, 2016, 12:02 pm 
+Showing backtrace:
+AdminControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Array to string conversion
+LOCATION: /var/www/html/proyecto_DYMO/app/control/AdminControl.php, line 26, at December 5, 2016, 12:03 pm 
+Showing backtrace:
+AdminControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Array to string conversion
+LOCATION: /var/www/html/proyecto_DYMO/app/control/AdminControl.php, line 26, at December 5, 2016, 12:08 pm 
+Showing backtrace:
+AdminControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined offset: 0
+LOCATION: /var/www/html/proyecto_DYMO/app/control/AdminControl.php, line 26, at December 5, 2016, 12:09 pm 
+Showing backtrace:
+AdminControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: alias
+LOCATION: /var/www/html/proyecto_DYMO/app/control/AdminControl.php, line 26, at December 5, 2016, 12:11 pm 
+Showing backtrace:
+AdminControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: 
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/e9044d817a6e261f93aaeb81c1695980ed1b8c04_0.file.admin.tpl.php, line 140, at December 5, 2016, 12:12 pm 
+Showing backtrace:
+content_5845a01a710f16_22657617(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:admin/admin.tpl", null, null, "0", "3600", Array[0], "0", false) # line   27, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/f95eb0f189612dd4481c2f93b1c83d032055d6f4_0.file.admin.tpl.html.php
+content_583f563467e3c0_28849604(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("admin.tpl.html") # line   31, file: /var/www/html/proyecto_DYMO/app/control/AdminControl.php
+AdminControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 76, at December 5, 2016, 7:12 pm 
+Showing backtrace:
+content_584602542964f1_68199494(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 76, at December 5, 2016, 7:12 pm 
+Showing backtrace:
+content_584602542964f1_68199494(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Undefined index: num
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+
+
+ERRNO: 8
+TEXT: Trying to get property of non-object
+LOCATION: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/6703fde1b482c19f01cec48a61332228b1fd76f5_0.file.index.tpl.php, line 116, at December 5, 2016, 7:14 pm 
+Showing backtrace:
+content_584602cae1d392_72111440(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render() # line  174, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_runtime_subtemplate.php
+Smarty_Internal_Runtime_SubTemplate.render(Object: Smarty_Internal_Template, "file:index.tpl", null, null, "0", "3600", Array[0], "0", false) # line   30, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/templates_c/ae66bb2a2acd19b448691dae095fc77dbeb75179_0.file.index.tpl.html.php
+content_583f1013314ff3_56633353(Object: Smarty_Internal_Template) # line  122, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_resource_base.php
+Smarty_Template_Resource_Base.getRenderedTemplateCode(Object: Smarty_Internal_Template) # line  199, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_template_compiled.php
+Smarty_Template_Compiled.render(Object: Smarty_Internal_Template) # line  159, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_template.php
+Smarty_Internal_Template.render(false, "1") # line  191, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase._execute(Object: Smarty_Internal_Template, null, null, null, "1") # line  109, file: /var/www/html/proyecto_DYMO/app/vistas/smarty/libs/sysplugins/smarty_internal_templatebase.php
+Smarty_Internal_TemplateBase.display("index.tpl.html") # line   23, file: /var/www/html/proyecto_DYMO/app/control/IndexControl.php
+IndexControl.index() # line   46, file: /var/www/html/proyecto_DYMO/lib/Frontal.php
+Frontal.execute() # line    6, file: /var/www/html/proyecto_DYMO/web/index.php
+
+

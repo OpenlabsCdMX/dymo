@@ -1,0 +1,375 @@
+.formulario{
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.formulario label{
+
+  float:left;
+  font-weight:normal !important;
+  padding:5px;
+}
+
+
+.formulario .form-control:focus {
+  z-index: 2;
+}
+.formulario input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  float:left;
+  width:300px;
+}
+
+.formulario .btnCrear{
+	margin-top: 10px;
+	background: rgb(28, 184, 65); /* this is a green */
+	border-radius:4px;
+    color:white;
+    text-shadow:rgba(0, 0, 0, 0.2) 0 1px 1px;
+    border:0px;
+    width:300px;
+
+}
+.formulario select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 100%;
+    height: 35px;
+    line-height: 25px;
+    padding-left:10px;
+}
+
+/**datos del expediente*/
+#expediente{
+  max-width: 95%;
+  padding: 0px;
+  margin: 0 auto;
+  margin-left:0px;
+}
+
+#busqueda{
+  max-width: 70%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#expediente label{
+   float:left;
+   padding:10px;
+   padding-right:20px;
+}
+
+#expediente input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  float:left;
+  width:40%;
+}
+
+#expediente #defensor{
+   width:52%;
+
+}
+
+#expediente #buscar_cliente{
+   width:40%;
+
+}
+
+#expediente #residencia_campeche{
+   width:35%;
+}
+
+
+#expediente #fecha_creacion{
+   width:205px;
+}
+
+#expediente #fecha_modificacion{
+   width:205px;
+}
+
+#expediente select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: auto;
+    height: 35px;
+    line-height: 25px;
+    padding-left:10px;
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#clientes{
+      clear:left;
+      margin:15px;
+}
+
+#clientes ul li{
+
+  list-style: none;
+}
+
+
+#expediente button{
+  background:#1CB841;
+  border:0;
+  border-radius:4px;
+  clear:left;
+  color:white;
+  float:left;
+  margin:auto 30%;
+  text-shadow:rgba(0, 0, 0, 0.2) 0 1px 1px;
+  width:300px;
+}
+
+#expediente .btnEntrevista{
+    float:left;
+    margin:0px;
+    width:200px;
+    height:40px;
+    font-size:18px;
+}
+
+/*EXPEDIENTES*/
+#listaExpedientes{
+   margin:10px;
+   padding:10px;
+   float:left;
+}
+
+
+#listaExpedientes ul{
+
+  list-style: none;
+
+}
+
+
+#listaExpedientes ul li{
+  padding:10px;
+  border:1px solid #ddd;
+}
+
+#listaExpedientes li{
+  background-image: url('../imagenes/folder.png');
+  background-position:left top;
+  background-repeat:no-repeat;
+  padding-left:50px !important;
+}
+#listaExpedientes li a, #listaExpedientes li a:hover{
+   text-decoration:none;
+   color:#666666 !important;
+   font-weight:normal !important;
+}
+
+
+#listaExpedientes #fecha{
+  font-size:12px;
+}
+
+#expediente #buscar,#buscarFamilia{
+  width:90% !important;
+}
+
+
+
+
+/*familia*/
+
+#expedienteFamilia{
+  max-width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+  margin-left:0px;
+}
+
+
+
+#expedienteFamilia label{
+   float:left;
+   padding:10px;
+   padding-right:20px;
+}
+
+#expedienteFamilia input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  float:left;
+  width:40%;
+}
+
+#expedienteFamilia #relacion_interno{
+  width:25% !important;
+}
+
+#expedienteFamilia select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: auto;
+    height: 35px;
+    line-height: 25px;
+    padding-left:10px;
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#expedienteFamilia #destino{
+  width:23% !important;
+}
+
+
+#expedienteFamilia #fecha_creacion{
+  width:20% !important;
+}
+
+#expedienteFamilia #fecha_modificacion{
+  width:20% !important;
+}
+
+#expedienteFamilia .btnExpediente{
+    float:left;
+    margin:0px;
+    width:200px;
+    height:40px;
+    font-size:18px;
+}
+
+#expedienteFamilia button{
+  background:#1CB841;
+  border:0;
+  border-radius:4px;
+  clear:left;
+  color:white;
+  float:left;
+  margin:auto 30%;
+  text-shadow:rgba(0, 0, 0, 0.2) 0 1px 1px;
+  width:300px;
+}
+
+#expedienteFamilia textarea{
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  float:left;
+  width:30%;
+}
+
+
+#familia{
+      clear:left;
+      margin:15px;
+}
+
+#familia ul li{
+
+  list-style: none;
+}
+
+/**EXPEDIENTE PENAL**/
+#expedientePenal{
+  max-width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+  margin-left:0px;
+}
+
+
+#expedientePenal input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  float:left;
+  width:40%;
+}
+
+#expedientePenal #fecha_creacion{
+     
+     width:20% !important;
+}
+
+#expedientePenal #fecha_ingreso, #fecha_sentencia{
+     width:30% !important;
+}
+
+#expedientePenal #fecha_ejecutoria{
+     width:35% !important;
+}
+
+#expedientePenal #fecha_falta{
+     width:18% !important;
+}
+
+#expedientePenal #origen_juzgado,#fecha_constitucion,#numero_apelacion,#numero_amparo{
+     width:25% !important;
+}
+
+#expedientePenal #nombre_juez{
+     width:40% !important;
+}
+
+#expedientePenal label{
+   float:left;
+   padding:10px;
+   padding-right:20px;
+}
+
+#expedientePenal select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: auto;
+    height: 35px;
+    line-height: 25px;
+    padding-left:10px;
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+#expedientePenal button{
+  background:#1CB841;
+  border:0;
+  border-radius:4px;
+  clear:left;
+  color:white;
+  float:left;
+  margin:auto 30%;
+  text-shadow:rgba(0, 0, 0, 0.2) 0 1px 1px;
+  width:300px;
+}
+
+#expedientePenal .btnExpediente{
+    float:left;
+    margin:0px;
+    width:200px;
+    height:40px;
+    font-size:18px;
+}
