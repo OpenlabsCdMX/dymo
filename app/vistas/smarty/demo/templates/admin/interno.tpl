@@ -31,26 +31,18 @@
           </table>
           
           <table cellspacing="10" cellpadding="10"  border=0; style="border-bottom:#cccccc 1px solid" width="100%">
-          <tr><td align="center" width="5%"></td>
-              <!-- <td align="center" width="5%"></td> -->
-            
-              <td width="30%"><b>Alias</b></td>
-              <td align="center" width="20%"><b>Fecha Nacimiento</b></td>
-              <td align="center" width="20%"><b>Edad</b></td>
-          </tr>
-              {for $i=0 to $num-1}
-                            <tr>
-                                <td align="center" height="30px">
-                                    <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno={$listado_internos[$i]['PERSONA_ID_PERSONA']}">
-                                    <img width="25" height="25" src="../web/imagenes/min/editar.png" /></a>
-                                </td>
-                                
-                               <!-- <td align="center"><img width="25" height="25" src="../web/imagenes/min/eliminar.png" /></td> -->
-                                <td align=left>{$listado_internos[$i]['ALIAS']}</td>
-                                <td align=center>{$listado_internos[$i]['FECHA_NAC']}</td>
-                                <td align=center>{$listado_internos[$i]['EDAD']}</td>
-                            </tr>    
-                {/for}
+          
+              <tr><td align="center" width="20%"><h3><b>Nombre</b></h3></td> <td align=left><h3>{$dato_persona[0]['NOMBRES']}</h3></td></tr>
+              <tr><td align="center" width="20%"><h3><b>Apellido</b></h3></td> <td align=left><h3>{$dato_persona[0]['APELLIDOS']}</h3></td> </tr>
+              <tr><td align="center" width="20%"><h3><b>Direccion</b></h3></td><td align=left><h3>{$dato_persona[0]['DIRECCION']}</h3></td> </tr>
+              <tr><td align="center" width="20%"><h3><b>Telefono</b></h3></td><td align=left><h3>{$dato_persona[0]['TELEFONO']}</h3></td> </tr>
+              <tr><td align="center" width="20%"><h3><b>Celular</b></h3></td><td align=left><h3>{$dato_persona[0]['CELULAR']}</h3></td></tr>
+         
+       <!-- <td align="center" height="30px">
+            <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno={*$listado_internos[$i]['PERSONA_ID_PERSONA']*}">
+
+        </td> -->   
+              
           </table>
         </div> <!-- fin -->
       
