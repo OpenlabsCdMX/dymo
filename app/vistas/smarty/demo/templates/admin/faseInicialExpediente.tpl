@@ -43,7 +43,7 @@
             <div class="form-group row">
                 <label for="example-email-input" class="col-xs-1 col-form-label">FECHA</label>
                 <div class="col-xs-5">
-                <input class="form-control" type="email" value="2016-03-19" id="example-email-input">
+                <input class="form-control" type="email" value="" id="example-email-input">
                 </div>
                 <label for="example-text-input" class="col-xs-2 col-form-label">RUTA No.</label>
                 <div class="col-xs-4">
@@ -58,7 +58,7 @@
 
                 <label for="example-url-input" class="col-xs-1 col-form-label">LENGUA</label>
                 <div class="col-xs-3">
-                <input class="form-control" type="url" value="maya peninsular" id="example-url-input">
+                <input class="form-control" type="url" value="" id="example-url-input">
                 </div>
 
                 <label for="example-tel-input" class="col-xs-1 col-form-label">EDAD</label>
@@ -80,7 +80,7 @@
             <div class="form-group row">
                 <label for="example-search-input" class="col-xs-2 col-form-label">FECHA DE INGRESO</label>
                 <div class="col-xs-4">
-                <input class="form-control" type="search" value="2016-03-19" id="example-search-input">
+                <input class="form-control" type="search" value="" id="example-search-input">
                 </div>
 
                 <label for="example-url-input" class="col-xs-2 col-form-label">SANCIÓN IMPUESTA</label>

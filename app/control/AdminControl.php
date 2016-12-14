@@ -24,11 +24,5 @@ class AdminControl extends Controlador {
        ErrorHandler::SetHandler();
        $this->vista->display("registroExpediente.tpl.html");
     }
-   /* function faseExpedientes(){
-       $num_exp =$_GET['num_exp']; 
-       $this->vista->assign('numero_expediente',$num_exp);
-       $this->vista->display("faseExpediente.tpl.html"); 
-    }*/
-    
 }
 ?>

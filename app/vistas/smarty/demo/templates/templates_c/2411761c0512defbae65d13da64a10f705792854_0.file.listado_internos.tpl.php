@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-08 17:21:58
+/* Smarty version 3.1.29, created on 2016-12-13 23:17:13
   from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/listado_internos.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5849dd06b91fb9_76660784',
+  'unifunc' => 'content_5850c7c9b16160_22539718',
   'file_dependency' => 
   array (
     '2411761c0512defbae65d13da64a10f705792854' => 
     array (
       0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/listado_internos.tpl',
-      1 => 1481235711,
+      1 => 1481689025,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/menu_izquierda.tpl' => 1,
   ),
 ),false)) {
-function content_5849dd06b91fb9_76660784 ($_smarty_tpl) {
+function content_5850c7c9b16160_22539718 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -78,7 +78,7 @@ for ($_smarty_tpl->tpl_vars['i']->value = 0, $_smarty_tpl->tpl_vars['i']->iterat
 $_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1;$_smarty_tpl->tpl_vars['i']->last = $_smarty_tpl->tpl_vars['i']->iteration == $_smarty_tpl->tpl_vars['i']->total;?>
                             <tr>
                                 <td align="center" height="30px">
-                                    <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno=<?php echo $_smarty_tpl->tpl_vars['listado_internos']->value[$_smarty_tpl->tpl_vars['i']->value]['PERSONA_ID_PERSONA'];?>
+                                    <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno=<?php echo $_smarty_tpl->tpl_vars['listado_internos']->value[$_smarty_tpl->tpl_vars['i']->value]['ID_INTERNO'];?>
 ">
                                     <img width="25" height="25" src="../web/imagenes/min/editar.png" /></a>
                                 </td>

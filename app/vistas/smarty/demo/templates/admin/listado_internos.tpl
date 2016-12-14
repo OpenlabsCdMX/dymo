@@ -43,7 +43,7 @@
               {for $i=0 to $num-1}
                             <tr>
                                 <td align="center" height="30px">
-                                    <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno={$listado_internos[$i]['PERSONA_ID_PERSONA']}">
+                                    <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno={$listado_internos[$i]['ID_INTERNO']}">
                                     <img width="25" height="25" src="../web/imagenes/min/editar.png" /></a>
                                 </td>
                                 

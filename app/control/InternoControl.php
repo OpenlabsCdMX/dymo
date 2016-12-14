@@ -10,8 +10,8 @@ class InternoControl extends Controlador {
        $num_int =$_GET['num_interno']; 
        $catalogo = new Catalogo();
        
-       $num_expediente = $catalogo->GetExpedienteIdInterno($num_int);
-       $datos_interno = $catalogo->GetInterno($num_int);
+       $num_expediente = $catalogo->GetExpedienteIdInterno($num_int);   //obtiene el expediente con el numero de interno
+       $datos_interno = $catalogo->GetInterno($num_int);  //get interno funciona con el id del interno  
        $id_persona = $datos_interno[0]['PERSONA_ID_PERSONA']; 
        $datos_persona = $catalogo->GetDatosPersona($id_persona);
        
@@ -26,8 +26,11 @@ class InternoControl extends Controlador {
        $this->vista->assign('dato_persona',$datos_persona);
        
        $this->vista->assign('id_int',$num_int);
+       $this->vista->assign('id_per',$id_persona);
+       
        $this->vista->assign('num_exp',$num_expediente);
        $this->vista->assign('cantidad_exp',$num_list_exp);
+       
        
        $this->vista->display("interno.tpl.html");
    

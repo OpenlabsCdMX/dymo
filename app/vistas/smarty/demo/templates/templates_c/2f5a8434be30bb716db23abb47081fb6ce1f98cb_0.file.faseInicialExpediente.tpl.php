@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-12 22:22:07
+/* Smarty version 3.1.29, created on 2016-12-13 23:40:48
   from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/faseInicialExpediente.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_584f695f531966_62565532',
+  'unifunc' => 'content_5850cd5042cdf0_36964691',
   'file_dependency' => 
   array (
     '2f5a8434be30bb716db23abb47081fb6ce1f98cb' => 
     array (
       0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/faseInicialExpediente.tpl',
-      1 => 1481599120,
+      1 => 1481690417,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/menu_izquierda.tpl' => 1,
   ),
 ),false)) {
-function content_584f695f531966_62565532 ($_smarty_tpl) {
+function content_5850cd5042cdf0_36964691 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -78,7 +78,7 @@ function content_584f695f531966_62565532 ($_smarty_tpl) {
             <div class="form-group row">
                 <label for="example-email-input" class="col-xs-1 col-form-label">FECHA</label>
                 <div class="col-xs-5">
-                <input class="form-control" type="email" value="2016-03-19" id="example-email-input">
+                <input class="form-control" type="email" value="" id="example-email-input">
                 </div>
                 <label for="example-text-input" class="col-xs-2 col-form-label">RUTA No.</label>
                 <div class="col-xs-4">
@@ -95,7 +95,7 @@ function content_584f695f531966_62565532 ($_smarty_tpl) {
 
                 <label for="example-url-input" class="col-xs-1 col-form-label">LENGUA</label>
                 <div class="col-xs-3">
-                <input class="form-control" type="url" value="maya peninsular" id="example-url-input">
+                <input class="form-control" type="url" value="" id="example-url-input">
                 </div>
 
                 <label for="example-tel-input" class="col-xs-1 col-form-label">EDAD</label>
@@ -117,7 +117,7 @@ function content_584f695f531966_62565532 ($_smarty_tpl) {
             <div class="form-group row">
                 <label for="example-search-input" class="col-xs-2 col-form-label">FECHA DE INGRESO</label>
                 <div class="col-xs-4">
-                <input class="form-control" type="search" value="2016-03-19" id="example-search-input">
+                <input class="form-control" type="search" value="" id="example-search-input">
                 </div>
 
                 <label for="example-url-input" class="col-xs-2 col-form-label">SANCIÓN IMPUESTA</label>

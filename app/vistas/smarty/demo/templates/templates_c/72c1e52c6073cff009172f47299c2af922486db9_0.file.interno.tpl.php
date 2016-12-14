@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-13 20:45:18
+/* Smarty version 3.1.29, created on 2016-12-13 23:30:48
   from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/interno.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5850a42e7343c5_81682731',
+  'unifunc' => 'content_5850caf8a4ef80_04269041',
   'file_dependency' => 
   array (
     '72c1e52c6073cff009172f47299c2af922486db9' => 
     array (
       0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/interno.tpl',
-      1 => 1481679907,
+      1 => 1481689792,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/menu_izquierda.tpl' => 1,
   ),
 ),false)) {
-function content_5850a42e7343c5_81682731 ($_smarty_tpl) {
+function content_5850caf8a4ef80_04269041 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,7 +55,7 @@ function content_5850a42e7343c5_81682731 ($_smarty_tpl) {
         
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px;">
           <table cellpading="10" cellspacing="10">
-              <tr><td><h1 class="page-header">Listado Internos</h1></td>
+              <tr><td><h1 class="page-header">Ver Interno</h1></td>
                   <!-- <td>&nbsp;&nbsp;&nbsp;agregar interno</td><td>&nbsp;&nbsp;&nbsp;<a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=registrarInterno">
                   <img width="25" height="25" src="../web/imagenes/min/agregar.png" /></a>&nbsp;</td> -->   
               </tr>
@@ -67,6 +67,8 @@ function content_5850a42e7343c5_81682731 ($_smarty_tpl) {
 </h3></td></tr>
               <tr><td align="left" width="20%"><h3><b>Apellido</b></h3></td> <td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['APELLIDOS'];?>
 </h3></td> </tr>
+              <tr><td align="left" width="20%"><h3><b>Alias</b></h3></td> <td align=left><h3><i><?php echo $_smarty_tpl->tpl_vars['dato_interno']->value[0]['ALIAS'];?>
+</i></h3></td> </tr>
               <tr><td align="left" width="20%"><h3><b>Direccion</b></h3></td><td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['DIRECCION'];?>
 </h3></td> </tr>
               <tr><td align="left" width="20%"><h3><b>Telefono</b></h3></td><td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['TELEFONO'];?>
@@ -80,7 +82,8 @@ function content_5850a42e7343c5_81682731 ($_smarty_tpl) {
           <b>no existe expediente</b>
           <?php } else { ?>
          <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=ExpedienteFaseInicial&num_exp=<?php echo $_smarty_tpl->tpl_vars['num_exp']->value[0]['NUMERO_RUTA'];?>
-&id_interno=<?php echo $_smarty_tpl->tpl_vars['id_int']->value;?>
+&id_persona=<?php echo $_smarty_tpl->tpl_vars['id_per']->value;?>
+&id_interno=<?php echo $_smarty_tpl->tpl_vars['dato_interno']->value[0]['ID_INTERNO'];?>
 ">ver expediente</a>
          <?php }?>
          </div> <!-- fin -->

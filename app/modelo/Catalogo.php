@@ -13,7 +13,7 @@
             return BaseDatosControl::GetAll($sql);
         }
         
-        public static function GetInterno($id) {    //buscar al interno por el id
+        public static function GetInterno($id) {    //buscar al interno por el id de la persona
             $sql = "CALL buscar_interno(".$id.");";
             return BaseDatosControl::GetAll($sql);
         }
@@ -25,6 +25,7 @@
         
         public static function GetDatosPersona($id_persona){
             $sql = "CALL get_persona(".$id_persona.");";
+            echo $sql;
             return BaseDatosControl::GetAll($sql);
         }
         
