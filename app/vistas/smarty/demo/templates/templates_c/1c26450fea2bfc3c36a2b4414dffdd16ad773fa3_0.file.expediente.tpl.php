@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-07 12:54:10
+/* Smarty version 3.1.29, created on 2016-12-08 17:26:46
   from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/expediente.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58484cc2490673_62955894',
+  'unifunc' => 'content_5849de2684b997_08542411',
   'file_dependency' => 
   array (
     '1c26450fea2bfc3c36a2b4414dffdd16ad773fa3' => 
     array (
       0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/expediente.tpl',
-      1 => 1481133164,
+      1 => 1481236002,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/menu_izquierda.tpl' => 1,
   ),
 ),false)) {
-function content_58484cc2490673_62955894 ($_smarty_tpl) {
+function content_5849de2684b997_08542411 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -50,6 +50,8 @@ function content_58484cc2490673_62955894 ($_smarty_tpl) {
         <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:admin/menu_izquierda.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
   
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px">    
         <div id='listaExpedientes' style='border:0px solid;'>
             <h3>Expedientes DIMO</h3>
             <?php
@@ -59,7 +61,8 @@ for ($_smarty_tpl->tpl_vars['i']->value = 0, $_smarty_tpl->tpl_vars['i']->iterat
 $_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1;$_smarty_tpl->tpl_vars['i']->last = $_smarty_tpl->tpl_vars['i']->iteration == $_smarty_tpl->tpl_vars['i']->total;?>
                 <ul>
                     <li>
-                        <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=faseExpedientes&num_exp=<?php echo $_smarty_tpl->tpl_vars['listado_expedientes']->value[$_smarty_tpl->tpl_vars['i']->value]['NUMERO_RUTA'];?>
+                        <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=ExpedienteFaseInicial&num_exp=<?php echo $_smarty_tpl->tpl_vars['listado_expedientes']->value[$_smarty_tpl->tpl_vars['i']->value]['NUMERO_RUTA'];?>
+&id_interno=<?php echo $_smarty_tpl->tpl_vars['listado_expedientes']->value[$_smarty_tpl->tpl_vars['i']->value]['INTERNOS_ID_INTERNO'];?>
 ">
                             Expediente DIMO No. <?php echo $_smarty_tpl->tpl_vars['listado_expedientes']->value[$_smarty_tpl->tpl_vars['i']->value]['NUMERO_RUTA'];?>
 <br/>    

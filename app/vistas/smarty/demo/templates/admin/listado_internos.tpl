@@ -10,6 +10,8 @@
     <title>Dialogo y Movimiento - Debido Proceso</title>
     <link href="../web/css/librerias/bootstrap.min.css" rel="stylesheet">
     <link href="../web/css/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../web/css/dashboard.css">
+    
     <link href="../web/css/dashboard.css" rel="stylesheet">
     <script src="../web/js/ie-emulation-modes-warning.js"></script> 
   </head>
@@ -22,7 +24,7 @@
       
           {include file="admin/menu_izquierda.tpl"}  
         
-          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-350px;">
+          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px">
           <table cellpading="10" cellspacing="10">
               <tr><td><h1 class="page-header">Listado Internos</h1></td>
                   <!-- <td>&nbsp;&nbsp;&nbsp;agregar interno</td><td>&nbsp;&nbsp;&nbsp;<a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=registrarInterno">
@@ -49,6 +51,7 @@
                                 <td align=left>{$listado_internos[$i]['ALIAS']}</td>
                                 <td align=center>{$listado_internos[$i]['FECHA_NAC']}</td>
                                 <td align=center>{$listado_internos[$i]['EDAD']}</td>
+                                
                             </tr>    
                 {/for}
           </table>

@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-07 12:24:09
+/* Smarty version 3.1.29, created on 2016-12-08 16:23:26
   from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/registro.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_584853c952d937_72437798',
+  'unifunc' => 'content_5849dd5e9a76e2_99129629',
   'file_dependency' => 
   array (
     'e331f1e5b78fc5dadff565e5a78f937e78e2ef21' => 
     array (
       0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/registro.tpl',
-      1 => 1481135041,
+      1 => 1481235782,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/menu_izquierda.tpl' => 1,
   ),
 ),false)) {
-function content_584853c952d937_72437798 ($_smarty_tpl) {
+function content_5849dd5e9a76e2_99129629 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,6 +36,7 @@ function content_584853c952d937_72437798 ($_smarty_tpl) {
         <link rel="stylesheet" type="text/css" href="../web/css/librerias/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../web/css/librerias/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="../web/css/formulario.css">
+        <link href="../web/css/dashboard.css" rel="stylesheet">
 
         <?php echo '<script'; ?>
  src="../web/js/librerias/jquery-1.12.4.js"><?php echo '</script'; ?>
@@ -60,7 +61,7 @@ function content_584853c952d937_72437798 ($_smarty_tpl) {
 ?>
   
        
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-350px;">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px;">
           <h1 class="page-header">Registro Internos</h1>
           
             <form method="POST" action="index.php?controlador=RegistroInterno" class="formulario" id="formulario">

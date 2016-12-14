@@ -23,6 +23,8 @@ $(document).ready(function() {
 
   $("#sub-opcion2").click(function() {
      limpiarMenu();
+     var numero_expediente=document.expediente.numero_expediente.value;
+     
      $("#contenido2").load('../app/vistas/smarty/demo/templates/admin/fasefamilia.tpl');
      $("#sub-opcion2").css("background-color","#FFDA91");
   });

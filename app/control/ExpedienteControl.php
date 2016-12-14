@@ -10,6 +10,7 @@ class ExpedienteControl extends Controlador {
        $catalogo = new Catalogo();
        $lista_expedientes = $catalogo->GetExpedientes();
        $num_list= count($lista_expedientes);
+       
        $this->vista->assign('listado_expedientes',$lista_expedientes);
        $this->vista->assign('num',$num_list);
        $this->vista->display("expediente.tpl.html");

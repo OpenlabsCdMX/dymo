@@ -5,7 +5,7 @@
      <li>Expediente</li>
         <li><a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=registrarExpediente">Registrar Expediente</a></li> 
         <li><a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Expediente">Expedientes</a></li>
-        <li><a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=faseExpedientes">Ver Expedientes Ruta DYMO</a></li>
+        
     </ul>
     
     <ul class="nav nav-sidebar">

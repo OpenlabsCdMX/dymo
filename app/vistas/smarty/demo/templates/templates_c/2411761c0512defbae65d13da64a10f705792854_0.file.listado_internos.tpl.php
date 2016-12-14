@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-08 11:08:37
-  from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/admin.tpl" */
+/* Smarty version 3.1.29, created on 2016-12-08 17:21:58
+  from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/listado_internos.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_584985858debf2_02943876',
+  'unifunc' => 'content_5849dd06b91fb9_76660784',
   'file_dependency' => 
   array (
-    'e9044d817a6e261f93aaeb81c1695980ed1b8c04' => 
+    '2411761c0512defbae65d13da64a10f705792854' => 
     array (
-      0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/admin.tpl',
-      1 => 1481213312,
+      0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/listado_internos.tpl',
+      1 => 1481235711,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/menu_izquierda.tpl' => 1,
   ),
 ),false)) {
-function content_584985858debf2_02943876 ($_smarty_tpl) {
+function content_5849dd06b91fb9_76660784 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,6 +35,8 @@ function content_584985858debf2_02943876 ($_smarty_tpl) {
     <title>Dialogo y Movimiento - Debido Proceso</title>
     <link href="../web/css/librerias/bootstrap.min.css" rel="stylesheet">
     <link href="../web/css/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../web/css/dashboard.css">
+    
     <link href="../web/css/dashboard.css" rel="stylesheet">
     <?php echo '<script'; ?>
  src="../web/js/ie-emulation-modes-warning.js"><?php echo '</script'; ?>
@@ -53,7 +55,7 @@ function content_584985858debf2_02943876 ($_smarty_tpl) {
 ?>
   
         
-          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-350px;">
+          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px">
           <table cellpading="10" cellspacing="10">
               <tr><td><h1 class="page-header">Listado Internos</h1></td>
                   <!-- <td>&nbsp;&nbsp;&nbsp;agregar interno</td><td>&nbsp;&nbsp;&nbsp;<a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=registrarInterno">
@@ -88,6 +90,7 @@ $_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1
 </td>
                                 <td align=center><?php echo $_smarty_tpl->tpl_vars['listado_internos']->value[$_smarty_tpl->tpl_vars['i']->value]['EDAD'];?>
 </td>
+                                
                             </tr>    
                 <?php }
 }

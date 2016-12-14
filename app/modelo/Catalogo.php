@@ -33,6 +33,11 @@
             return BaseDatosControl::GetAll($sql);
         }
         
+        public static function GetExpedienteIdInterno($id){
+            $sql = "CALL ver_expediente_id_interno(".$id.");";
+            return BaseDatosControl::GetAll($sql);
+        }
+        
         
         public static function RegistrarInternos($p1, $p2, $p3, $p4, $p5){
             $sql = "CALL ingresar_internos_p("."'".$p1."'".','."'".$p2."'".','.$p3.','.$p4.','.$p5.");";

@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-08 11:08:37
-  from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/admin.tpl" */
+/* Smarty version 3.1.29, created on 2016-12-13 20:45:18
+  from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/interno.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_584985858debf2_02943876',
+  'unifunc' => 'content_5850a42e7343c5_81682731',
   'file_dependency' => 
   array (
-    'e9044d817a6e261f93aaeb81c1695980ed1b8c04' => 
+    '72c1e52c6073cff009172f47299c2af922486db9' => 
     array (
-      0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/admin.tpl',
-      1 => 1481213312,
+      0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/interno.tpl',
+      1 => 1481679907,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/menu_izquierda.tpl' => 1,
   ),
 ),false)) {
-function content_584985858debf2_02943876 ($_smarty_tpl) {
+function content_5850a42e7343c5_81682731 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,7 +53,7 @@ function content_584985858debf2_02943876 ($_smarty_tpl) {
 ?>
   
         
-          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-350px;">
+          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px;">
           <table cellpading="10" cellspacing="10">
               <tr><td><h1 class="page-header">Listado Internos</h1></td>
                   <!-- <td>&nbsp;&nbsp;&nbsp;agregar interno</td><td>&nbsp;&nbsp;&nbsp;<a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=registrarInterno">
@@ -62,39 +62,28 @@ function content_584985858debf2_02943876 ($_smarty_tpl) {
           </table>
           
           <table cellspacing="10" cellpadding="10"  border=0; style="border-bottom:#cccccc 1px solid" width="100%">
-          <tr><td align="center" width="5%"></td>
-              <!-- <td align="center" width="5%"></td> -->
-            
-              <td width="30%"><b>Alias</b></td>
-              <td align="center" width="20%"><b>Fecha Nacimiento</b></td>
-              <td align="center" width="20%"><b>Edad</b></td>
-          </tr>
-              <?php
-$_smarty_tpl->tpl_vars['i'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['i']->step = 1;$_smarty_tpl->tpl_vars['i']->total = (int) ceil(($_smarty_tpl->tpl_vars['i']->step > 0 ? $_smarty_tpl->tpl_vars['num']->value-1+1 - (0) : 0-($_smarty_tpl->tpl_vars['num']->value-1)+1)/abs($_smarty_tpl->tpl_vars['i']->step));
-if ($_smarty_tpl->tpl_vars['i']->total > 0) {
-for ($_smarty_tpl->tpl_vars['i']->value = 0, $_smarty_tpl->tpl_vars['i']->iteration = 1;$_smarty_tpl->tpl_vars['i']->iteration <= $_smarty_tpl->tpl_vars['i']->total;$_smarty_tpl->tpl_vars['i']->value += $_smarty_tpl->tpl_vars['i']->step, $_smarty_tpl->tpl_vars['i']->iteration++) {
-$_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1;$_smarty_tpl->tpl_vars['i']->last = $_smarty_tpl->tpl_vars['i']->iteration == $_smarty_tpl->tpl_vars['i']->total;?>
-                            <tr>
-                                <td align="center" height="30px">
-                                    <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno=<?php echo $_smarty_tpl->tpl_vars['listado_internos']->value[$_smarty_tpl->tpl_vars['i']->value]['PERSONA_ID_PERSONA'];?>
-">
-                                    <img width="25" height="25" src="../web/imagenes/min/editar.png" /></a>
-                                </td>
-                                
-                               <!-- <td align="center"><img width="25" height="25" src="../web/imagenes/min/eliminar.png" /></td> -->
-                                <td align=left><?php echo $_smarty_tpl->tpl_vars['listado_internos']->value[$_smarty_tpl->tpl_vars['i']->value]['ALIAS'];?>
-</td>
-                                <td align=center><?php echo $_smarty_tpl->tpl_vars['listado_internos']->value[$_smarty_tpl->tpl_vars['i']->value]['FECHA_NAC'];?>
-</td>
-                                <td align=center><?php echo $_smarty_tpl->tpl_vars['listado_internos']->value[$_smarty_tpl->tpl_vars['i']->value]['EDAD'];?>
-</td>
-                            </tr>    
-                <?php }
-}
-?>
-
-          </table>
-        </div> <!-- fin -->
+          
+              <tr><td align="left" width="20%"><h3><b>Nombre</b></h3></td> <td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['NOMBRES'];?>
+</h3></td></tr>
+              <tr><td align="left" width="20%"><h3><b>Apellido</b></h3></td> <td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['APELLIDOS'];?>
+</h3></td> </tr>
+              <tr><td align="left" width="20%"><h3><b>Direccion</b></h3></td><td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['DIRECCION'];?>
+</h3></td> </tr>
+              <tr><td align="left" width="20%"><h3><b>Telefono</b></h3></td><td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['TELEFONO'];?>
+</h3></td> </tr>
+              <tr><td align="left" width="20%"><h3><b>Celular</b></h3></td><td align=left><h3><?php echo $_smarty_tpl->tpl_vars['dato_persona']->value[0]['CELULAR'];?>
+</h3></td></tr>
+              <tr><td align="left" width="20%"><h3><b>No. Ruta DYMO</b></h3></td><td align=left><h3><?php echo $_smarty_tpl->tpl_vars['num_exp']->value[0]['NUMERO_RUTA'];?>
+</h3></td></tr>   
+         </table>
+         <?php if ($_smarty_tpl->tpl_vars['cantidad_exp']->value == 0) {?>
+          <b>no existe expediente</b>
+          <?php } else { ?>
+         <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=ExpedienteFaseInicial&num_exp=<?php echo $_smarty_tpl->tpl_vars['num_exp']->value[0]['NUMERO_RUTA'];?>
+&id_interno=<?php echo $_smarty_tpl->tpl_vars['id_int']->value;?>
+">ver expediente</a>
+         <?php }?>
+         </div> <!-- fin -->
       
     </div>
 

@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="../web/css/librerias/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../web/css/librerias/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="../web/css/formulario.css">
+        <link href="../web/css/dashboard.css" rel="stylesheet">
 
         <script src="../web/js/librerias/jquery-1.12.4.js"></script>
         <script src="../web/js/librerias/jquery-ui.js"></script>
@@ -25,7 +26,7 @@
       
           {include file="admin/menu_izquierda.tpl"}  
        
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-350px;">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px;">
           <h1 class="page-header">Registro Internos</h1>
           
             <form method="POST" action="index.php?controlador=RegistroInterno" class="formulario" id="formulario">

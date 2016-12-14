@@ -22,7 +22,7 @@
       
           {include file="admin/menu_izquierda.tpl"}  
         
-          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-350px;">
+          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px;">
           <table cellpading="10" cellspacing="10">
               <tr><td><h1 class="page-header">Listado Internos</h1></td>
                   <!-- <td>&nbsp;&nbsp;&nbsp;agregar interno</td><td>&nbsp;&nbsp;&nbsp;<a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=registrarInterno">
@@ -32,19 +32,19 @@
           
           <table cellspacing="10" cellpadding="10"  border=0; style="border-bottom:#cccccc 1px solid" width="100%">
           
-              <tr><td align="center" width="20%"><h3><b>Nombre</b></h3></td> <td align=left><h3>{$dato_persona[0]['NOMBRES']}</h3></td></tr>
-              <tr><td align="center" width="20%"><h3><b>Apellido</b></h3></td> <td align=left><h3>{$dato_persona[0]['APELLIDOS']}</h3></td> </tr>
-              <tr><td align="center" width="20%"><h3><b>Direccion</b></h3></td><td align=left><h3>{$dato_persona[0]['DIRECCION']}</h3></td> </tr>
-              <tr><td align="center" width="20%"><h3><b>Telefono</b></h3></td><td align=left><h3>{$dato_persona[0]['TELEFONO']}</h3></td> </tr>
-              <tr><td align="center" width="20%"><h3><b>Celular</b></h3></td><td align=left><h3>{$dato_persona[0]['CELULAR']}</h3></td></tr>
-         
-       <!-- <td align="center" height="30px">
-            <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Interno&num_interno={*$listado_internos[$i]['PERSONA_ID_PERSONA']*}">
-
-        </td> -->   
-              
-          </table>
-        </div> <!-- fin -->
+              <tr><td align="left" width="20%"><h3><b>Nombre</b></h3></td> <td align=left><h3>{$dato_persona[0]['NOMBRES']}</h3></td></tr>
+              <tr><td align="left" width="20%"><h3><b>Apellido</b></h3></td> <td align=left><h3>{$dato_persona[0]['APELLIDOS']}</h3></td> </tr>
+              <tr><td align="left" width="20%"><h3><b>Direccion</b></h3></td><td align=left><h3>{$dato_persona[0]['DIRECCION']}</h3></td> </tr>
+              <tr><td align="left" width="20%"><h3><b>Telefono</b></h3></td><td align=left><h3>{$dato_persona[0]['TELEFONO']}</h3></td> </tr>
+              <tr><td align="left" width="20%"><h3><b>Celular</b></h3></td><td align=left><h3>{$dato_persona[0]['CELULAR']}</h3></td></tr>
+              <tr><td align="left" width="20%"><h3><b>No. Ruta DYMO</b></h3></td><td align=left><h3>{$num_exp[0]['NUMERO_RUTA']}</h3></td></tr>   
+         </table>
+         {if $cantidad_exp==0}
+          <b>no existe expediente</b>
+          {else}
+         <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=ExpedienteFaseInicial&num_exp={$num_exp[0]['NUMERO_RUTA']}&id_interno={$id_int}">ver expediente</a>
+         {/if}
+         </div> <!-- fin -->
       
     </div>
 

@@ -21,12 +21,14 @@
 
     <div class="container-fluid" style="margin-top:60px;">
         {include file="admin/menu_izquierda.tpl"}  
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="margin-top:-50px">    
         <div id='listaExpedientes' style='border:0px solid;'>
             <h3>Expedientes DIMO</h3>
             {for $i=0 to $num-1}
                 <ul>
                     <li>
-                        <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=faseExpedientes&num_exp={$listado_expedientes[$i]['NUMERO_RUTA']}">
+                        <a href="http://localhost/proyecto_DYMO/web/index.php?controlador=ExpedienteFaseInicial&num_exp={$listado_expedientes[$i]['NUMERO_RUTA']}&id_interno={$listado_expedientes[$i]['INTERNOS_ID_INTERNO']}">
                             Expediente DIMO No. {$listado_expedientes[$i]['NUMERO_RUTA']}<br/>    
                             <label id='fecha'>
                                 Creación:{$listado_expedientes[$i]['FECHA']} - Última Modificación :

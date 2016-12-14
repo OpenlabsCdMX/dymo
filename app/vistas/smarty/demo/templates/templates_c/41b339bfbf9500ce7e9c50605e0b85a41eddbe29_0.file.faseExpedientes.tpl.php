@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-07 16:21:22
+/* Smarty version 3.1.29, created on 2016-12-08 10:09:47
   from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/faseExpedientes.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58488b62f1e573_69606765',
+  'unifunc' => 'content_584985cb7a4e43_25696319',
   'file_dependency' => 
   array (
     '41b339bfbf9500ce7e9c50605e0b85a41eddbe29' => 
     array (
       0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/faseExpedientes.tpl',
-      1 => 1481149277,
+      1 => 1481156914,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:admin/faseinicial.tpl' => 1,
   ),
 ),false)) {
-function content_58488b62f1e573_69606765 ($_smarty_tpl) {
+function content_584985cb7a4e43_25696319 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">

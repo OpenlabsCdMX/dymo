@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-12-07 11:06:30
+/* Smarty version 3.1.29, created on 2016-12-08 13:56:24
   from "/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/menu_izquierda.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5848419662ff28_94905822',
+  'unifunc' => 'content_5849acd80ea801_10227990',
   'file_dependency' => 
   array (
     '262f08d797bf0799f443cb445936f94bbd23b85d' => 
     array (
       0 => '/var/www/html/proyecto_DYMO/app/vistas/smarty/demo/templates/admin/menu_izquierda.tpl',
-      1 => 1481130387,
+      1 => 1481223359,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5848419662ff28_94905822 ($_smarty_tpl) {
+function content_5849acd80ea801_10227990 ($_smarty_tpl) {
 ?>
 <div class="col-sm-3 col-md-2 sidebar">
     <br>
@@ -28,7 +28,7 @@ function content_5848419662ff28_94905822 ($_smarty_tpl) {
      <li>Expediente</li>
         <li><a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=registrarExpediente">Registrar Expediente</a></li> 
         <li><a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Expediente">Expedientes</a></li>
-        <li><a href="http://localhost/proyecto_DYMO/web/index.php?controlador=Admin&action=faseExpedientes">Ver Expedientes Ruta DYMO</a></li>
+        
     </ul>
     
     <ul class="nav nav-sidebar">
